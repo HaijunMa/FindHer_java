@@ -1,4 +1,3 @@
-package dog;
 
 /*
  * Title: Find Her
@@ -12,9 +11,9 @@ public class FindHer{
 		final  int lj = 1;
 		FindHer a = new FindHer();
 		for(int i=0;i < 5;i++) {
-			a.searchInBaidu();              //众里寻他千百度
-			if(lj == a.returnMyHead()) {    //蓦然回首
-				a.discoverTheLoveInDark();  //那人却在灯火阑珊处
+			a.searchInBaidu();                   //众里寻他千百度
+			if(lj == a.returnMyHead()) {         //蓦然回首
+				a.discoverTheLoveInDark();   //那人却在灯火阑珊处
 				//return;
 			}
 			try {
